@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './shared/layout/header/header.component';
 import { FooterComponent } from './shared/layout/footer/footer.component';
 import { HomepageComponent } from './pages/homepage/homepage.component';
+import { TermsComponent } from './pages/terms/terms.component';
+import { CookiesComponent } from './pages/cookies/cookies.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    HomepageComponent
+    HomepageComponent,
+    TermsComponent,
+    CookiesComponent
   ],
   imports: [
     BrowserModule,
